@@ -1,5 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Time for a Break! </break>
+<title> Time for a Break! </title>
+<style type="text/css">
+
+#slider{
+  overflow: hidden;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 30s slider infinite;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+}
+@keyframes slider{
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+      left: -100%;
+    }
+  50 {
+    left: -200%;
+  }
+  70% {
+      left: -200%;
+      }
+  75% {
+        left: -300%;
+      }
+  95% {
+          left: -300%;
+        }
+  100% {
+            left: -400%;
+          }
+}
+
+</style>
 </head>
+
+<body>
+  <div id="slider">
+    <figure>
+      <img src="Beach_1.jpg">
+      <img src="Beach_2.jpg">
+      <img src="Beach_3.jpg">
+      <img src="Beach_4.jpg">
+      <img src="Beach_5.jpg">
+</body>
